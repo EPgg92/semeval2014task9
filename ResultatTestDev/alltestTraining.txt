@@ -1,0 +1,385 @@
+TASK B
+Comparing predictions testTraining0.txt to gold standard training.txt.
+File: testTraining0.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+neutral 	3596
+positive 	3156
+negative 	858
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+neutral 	3703
+positive 	2843
+negative 	1064
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2666|       25|      142
+ negative|      169|      766|      123
+  neutral|      312|       63|     3314
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2666/3147) 0.8472	  (2666/2833) 0.9411	 0.8916	
+negative 	   (766/854) 0.8970	   (766/1058) 0.7240	 0.8013	
+neutral 	 (3314/3579) 0.9260	  (3314/3689) 0.8983	 0.9119	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.8464	
+TASK B
+Comparing predictions testTraining1.txt to gold standard training.txt.
+File: testTraining1.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+negative 	883
+neutral 	3617
+positive 	3110
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+negative 	1064
+neutral 	3703
+positive 	2843
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2652|       29|      152
+ negative|      144|      781|      133
+  neutral|      304|       68|     3317
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2652/3100) 0.8555	  (2652/2833) 0.9361	 0.8940	
+negative 	   (781/878) 0.8895	   (781/1058) 0.7382	 0.8068	
+neutral 	 (3317/3602) 0.9209	  (3317/3689) 0.8992	 0.9099	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.8504	
+TASK B
+Comparing predictions testTraining2.txt to gold standard training.txt.
+File: testTraining2.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+positive 	2936
+neutral 	3374
+negative 	1300
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+positive 	2843
+neutral 	3703
+negative 	1064
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2617|       89|      127
+ negative|       34|      990|       34
+  neutral|      277|      214|     3198
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2617/2928) 0.8938	  (2617/2833) 0.9238	 0.9085	
+negative 	  (990/1293) 0.7657	   (990/1058) 0.9357	 0.8422	
+neutral 	 (3198/3359) 0.9521	  (3198/3689) 0.8669	 0.9075	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.8754	
+TASK B
+Comparing predictions testTraining3.txt to gold standard training.txt.
+File: testTraining3.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+positive 	2955
+neutral 	3252
+negative 	1403
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+positive 	2843
+neutral 	3703
+negative 	1064
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2608|      110|      115
+ negative|       23|     1009|       26
+  neutral|      315|      276|     3098
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2608/2946) 0.8853	  (2608/2833) 0.9206	 0.9026	
+negative 	 (1009/1395) 0.7233	  (1009/1058) 0.9537	 0.8227	
+neutral 	 (3098/3239) 0.9565	  (3098/3689) 0.8398	 0.8943	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.8626	
+TASK B
+Comparing predictions testTraining4.txt to gold standard training.txt.
+File: testTraining4.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+neutral 	0
+positive 	7610
+negative 	0
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+neutral 	3703
+positive 	2843
+negative 	1064
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2833|        0|        0
+ negative|     1058|        0|        0
+  neutral|     3689|        0|        0
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2833/7580) 0.3737	  (2833/2833) 1.0000	 0.5441	
+negative 	       (0/0) 0.0000	     (0/1058) 0.0000	 0.0000	
+neutral 	       (0/0) 0.0000	     (0/3689) 0.0000	 0.0000	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.2721	
+TASK B
+Comparing predictions testTraining5.txt to gold standard training.txt.
+File: testTraining5.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+negative 	7610
+positive 	0
+neutral 	0
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+negative 	1064
+positive 	2843
+neutral 	3703
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|        0|     2833|        0
+ negative|        0|     1058|        0
+  neutral|        0|     3689|        0
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	       (0/0) 0.0000	     (0/2833) 0.0000	 0.0000	
+negative 	 (1058/7580) 0.1396	  (1058/1058) 1.0000	 0.2450	
+neutral 	       (0/0) 0.0000	     (0/3689) 0.0000	 0.0000	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.1225	
+TASK B
+Comparing predictions testTraining6.txt to gold standard training.txt.
+File: testTraining6.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+negative 	883
+positive 	3110
+neutral 	3617
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+negative 	1064
+positive 	2843
+neutral 	3703
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2652|       29|      152
+ negative|      144|      781|      133
+  neutral|      304|       68|     3317
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2652/3100) 0.8555	  (2652/2833) 0.9361	 0.8940	
+negative 	   (781/878) 0.8895	   (781/1058) 0.7382	 0.8068	
+neutral 	 (3317/3602) 0.9209	  (3317/3689) 0.8992	 0.9099	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.8504	
+TASK B
+Comparing predictions testTraining7.txt to gold standard training.txt.
+File: testTraining7.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+neutral 	2198
+positive 	3935
+negative 	1477
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+neutral 	3703
+positive 	2843
+negative 	1064
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2471|      182|      180
+ negative|      189|      830|       39
+  neutral|     1263|      459|     1967
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2471/3923) 0.6299	  (2471/2833) 0.8722	 0.7315	
+negative 	  (830/1471) 0.5642	   (830/1058) 0.7845	 0.6564	
+neutral 	 (1967/2186) 0.8998	  (1967/3689) 0.5332	 0.6696	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.6939	
+TASK B
+Comparing predictions testTraining8.txt to gold standard training.txt.
+File: testTraining8.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+positive 	3470
+neutral 	2697
+negative 	1443
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+positive 	2843
+neutral 	3703
+negative 	1064
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2554|      144|      135
+ negative|      101|      933|       24
+  neutral|      803|      359|     2527
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2554/3458) 0.7386	  (2554/2833) 0.9015	 0.8120	
+negative 	  (933/1436) 0.6497	   (933/1058) 0.8819	 0.7482	
+neutral 	 (2527/2686) 0.9408	  (2527/3689) 0.6850	 0.7928	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.7801	
+TASK B
+Comparing predictions testTraining9.txt to gold standard training.txt.
+File: testTraining9.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+neutral 	2725
+negative 	1402
+positive 	3483
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+neutral 	3703
+negative 	1064
+positive 	2843
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2559|      131|      143
+ negative|      108|      923|       27
+  neutral|      807|      340|     2542
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2559/3474) 0.7366	  (2559/2833) 0.9033	 0.8115	
+negative 	  (923/1394) 0.6621	   (923/1058) 0.8724	 0.7529	
+neutral 	 (2542/2712) 0.9373	  (2542/3689) 0.6891	 0.7943	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.7822	
+TASK B
+Comparing predictions testTraining10.txt to gold standard training.txt.
+File: testTraining10.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+neutral 	3177
+positive 	3020
+negative 	1413
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+neutral 	3703
+positive 	2843
+negative 	1064
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2652|       94|       87
+ negative|       24|     1009|       25
+  neutral|      336|      302|     3051
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2652/3012) 0.8805	  (2652/2833) 0.9361	 0.9074	
+negative 	 (1009/1405) 0.7181	  (1009/1058) 0.9537	 0.8193	
+neutral 	 (3051/3163) 0.9646	  (3051/3689) 0.8271	 0.8905	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.8634	

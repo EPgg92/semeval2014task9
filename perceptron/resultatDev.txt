@@ -1,0 +1,35 @@
+TASK B
+Comparing predictions development.output.txt to gold standard development.gold.txt.
+File: development.output.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+neutral 	552
+negative 	138
+positive 	609
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+neutral 	585
+negative 	261
+positive 	453
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      326|       23|      103
+ negative|       88|       69|      104
+  neutral|      193|       46|      344
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (326/607) 0.5371	    (326/452) 0.7212	 0.6157	
+negative 	    (69/138) 0.5000	     (69/261) 0.2644	 0.3459	
+neutral 	   (344/551) 0.6243	    (344/583) 0.5901	 0.6067	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.4808	

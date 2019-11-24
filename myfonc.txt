@@ -1,0 +1,54 @@
+fonction de perceptron3.0.py :
+main()
+tools(train)
+checkWord(word)
+readFile(file, dictonary)
+weightsValue(vectors)
+neurone(vectors,weight, SelecValue, pourcentErreur)
+weightCalculation(entry,weight,t)
+binarisation(x)
+affectationPNN(dictTw,weights)
+writeData(dictTw,nomfichier)
+
+fonction de perceptron3.1.py :
+
+fonction de perceptron3.2.py :
+
+fonction de perceptron3.3.py :
+
+fonction de perceptron3.4.py :
+
+fonction de perceptron3.5.py :
+fonctionRessources(files)
+readPmiFile(file)
+dictPmi(dictpmi)
+tools(train,ressources)
+linguisticVector(tweet, ressources)
+pmiGrams(score, setPos, setNeg, dictGrams, setTweet)
+readFile(file, dictonary, ressources)
+neurone(vectors,weight, SelecValue,traitement,pourcentErreur)
+
+fonction de perceptron3.6.py :
+fileVar(var,strName)
+unFileVar(file)
+sentimentalBindingDictionnary(files)
+fullThisDict(dico,indice,dictSentimental,dictSentIndice)
+valeurAbsolue(x)
+tools(train,bindingDictionnary)
+linguisticVector(tweet, bindingDictionnary, value)
+inter(a,b)
+
+fonction de perceptron3.7.py :
+deleteNotUseValue(tweets,bindingDictionnary)
+readFile(file, dictonary, bindingDictionnary)
+
+fonction de perceptron3.8.py :
+affectationPNN(dictTw,weights,x)
+actifLearnig(dictTw)
+
+fonction de perceptron3.9.py :
+actifLearnig(dictTw, vectors, dictonary, tweets, classify, noClassify, recurSBD)
+
+fonction de perceptron3.10.py :
+recalculVectors(tweets,bindingDictionnary)
+reRead(dictTw, recdictonary, bindingDictionnary)

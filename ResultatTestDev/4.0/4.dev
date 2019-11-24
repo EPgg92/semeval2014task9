@@ -1,0 +1,110 @@
+ python3 scoredev.py b devMod1.txt development.gold.txt
+TASK B
+Comparing predictions devMod1.txt to gold standard development.gold.txt.
+File: devMod1.txt -- no errors found
+Prediction file: 1296 lines
+                 1296 unique
+Breakdown by class:
+positive 	541
+neutral 	473
+negative 	282
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+positive 	453
+neutral 	585
+negative 	261
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      303|       59|       90
+ negative|       63|      125|       73
+  neutral|      175|       98|      310
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (303/541) 0.5601	    (303/452) 0.6704	 0.6103	
+negative 	   (125/282) 0.4433	    (125/261) 0.4789	 0.4604	
+neutral 	   (310/473) 0.6554	    (310/583) 0.5317	 0.5871	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5353	
+enzo@EnzoP300:~/Bureau/Projet MELS/amelioration/ResultatTestDev/3.Test/Données$
+ python3 scoredev.py b devMod2.txt development.gold.txt
+TASK B
+Comparing predictions devMod2.txt to gold standard development.gold.txt.
+File: devMod2.txt -- no errors found
+Prediction file: 1296 lines
+                 1296 unique
+Breakdown by class:
+negative 	275
+positive 	422
+neutral 	599
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+negative 	261
+positive 	453
+neutral 	585
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      237|       63|      152
+ negative|       53|      116|       92
+  neutral|      132|       96|      355
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (237/422) 0.5616	    (237/452) 0.5243	 0.5423	
+negative 	   (116/275) 0.4218	    (116/261) 0.4444	 0.4328	
+neutral 	   (355/599) 0.5927	    (355/583) 0.6089	 0.6007	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.4876	
+enzo@EnzoP300:~/Bureau/Projet MELS/amelioration/ResultatTestDev/3.Test/Données$
+ python3 scoredev.py b devAL.txt development.gold.txt
+TASK B
+Comparing predictions devAL.txt to gold standard development.gold.txt.
+File: devAL.txt -- no errors found
+Prediction file: 1296 lines
+                 1296 unique
+Breakdown by class:
+neutral 	485
+positive 	522
+negative 	289
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+neutral 	585
+positive 	453
+negative 	261
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      297|       64|       91
+ negative|       64|      124|       73
+  neutral|      161|      101|      321
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (297/522) 0.5690	    (297/452) 0.6571	 0.6099	
+negative 	   (124/289) 0.4291	    (124/261) 0.4751	 0.4509	
+neutral 	   (321/485) 0.6619	    (321/583) 0.5506	 0.6011	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5304	

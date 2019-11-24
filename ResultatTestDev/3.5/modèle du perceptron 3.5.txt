@@ -1,0 +1,43 @@
+nb de mot du lexique positif unigramme / nombre total d'uni
+nb de mot du lexique negatif unigramme/ nombre total d'uni
+nb de mot du lexique negatif bigramme / nombre total de bi
+nb de mot du lexique positif bigramme/ nombre total de bi
+maximal score positif
+​maximal score négatif
+ponctuation 
+!
+!*
+?
+!?
+smiley
+:)
+:-)
+:(
+:-(
+^^
+;-)
+;)
+-_- 
+dernier mot (positif 1; négatif 0)
+hashtag
+la longueur moyenne des mots 
+négation
+maximal score positif
+​maximal score négatif
+
+[ lexique positif  ]
+
+dernier mot positif
+dernier mot négatif 
+liste des négation
+listSmiley -> list de set de smiiley
+dictionnaire unigram pos
+dictionnaire unigram neg 
+dictionnaire bigramm pos
+dictionnaire bigramm neg
+dictionnaire hashtag positif
+dictionnaire hashtag negatif  
+
+
+
+

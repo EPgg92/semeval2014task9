@@ -1,0 +1,18 @@
+
+Scoring T13:
+	positive: P=65.54, R=60.06, F1=62.69
+	negative: P=39.14, R=37.02, F1=38.05
+	 neutral: P=59.96, R=65.56, F1=62.64
+	OVERALL SCORE : 50.37
+
+Scoring T14:
+	positive: P=73.87, R=61.81, F1=67.31
+	negative: P=34.36, R=37.33, F1=35.78
+	 neutral: P=53.65, R=64.73, F1=58.67
+	OVERALL SCORE : 51.54
+
+Scoring TS1:
+	positive: P=44.90, R=66.67, F1=53.66
+	negative: P=46.15, R=15.00, F1=22.64
+	 neutral: P=41.67, R=76.92, F1=54.05
+	OVERALL SCORE : 38.15

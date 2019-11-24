@@ -1,0 +1,1 @@
+for i in `seq 0 9`; do python3 scoredev.py b test3.3.$i.txt development.gold.txt >> resultattest3.3.txt; done

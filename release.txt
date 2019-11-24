@@ -1,0 +1,123 @@
+Release du percepron pour son amélioration pour la troisième parties du projet
+Sous chaque version vous trouverez 10 résultats des test avec les données de développement. 
+
+moyenne.py
+for i in `seq 0 9`; do python3 scoredev.py b test3.3.$i.txt development.gold.txt >> resultattest3.3.txt; done
+for i in `seq 0 10`; do python3 scoredev.py b testTraining$i.txt training.txt >> alltestTraining.txt; done
+
+les testTrainings est un indicateur de récupération des données d'apprentissage un fois passé dans le perceptron ! il montre combien le perceptron peut être biaisé et déformer ce qu'il à appris du à la généralisation du modéle
+
+3.0 Basic Perceptron
+[0.4803, 0.4803, 0.4803, 0.4803, 0.4803, 0.4803, 0.4803, 0.4803, 0.4803, 0.4803]
+0.4803
+
+Le testTraining de 3.10 n’a que 1,20% de différence !
+
+3.1 Average Perceptron based perceptron2.py
+[0.4654, 0.4577, 0.45, 0.464, 0.4721, 0.4485, 0.4606, 0.4573, 0.4602, 0.452]
+0.45878
+Amélioration des positifs et des neutres non négligable 1 à 4%, mais chute des neutres de 5 à 9%
+testTraining: P:89  Neg:80 Neu:91 -> avg(PosNeg):85 
+
+3.2 Average Perceptron avec biais négatifs
+[0.5267, 0.5201, 0.5196, 0.5244, 0.5276, 0.517, 0.5209, 0.5246, 0.502, 0.5184]
+0.52013
+Nette àméliorattion des négatifs avec parfois des amélioration jusqu'à 12%
+Chaque mots du vecteur d'entrainement si négatif vaut 3 au lieu de 1.
+Cette solution bien que bonne ne va pas être utilisé par la suite. Par contre elle nous indique quelle hypothèse privilégié pour 3.3. 
+testTraining: P:90  Neg:84 Neu:90 -> avg(PosNeg): 87
+
+3.3 Average Perceptron avec pondération relative des vecteur d'entrainement
+[0.5193, 0.5202, 0.5195, 0.5265, 0.5292, 0.511, 0.5152, 0.5153, 0.515, 0.5125]
+0.51837
+Chute de trois pourcent pour les neutres mais solutions plus génériques le biais est fait sur toutes les valeurs en pas uniquement sur les négatif -> solution adopté car plus universel.
+testTraining: P:90  Neg:82 Neu:89 -> avg(PosNeg):86 
+
+3.4 AP3.3 avec modèles des bigrams 
+[0.2586, 0.2586, 0.2586, 0.2586, 0.2586, 0.2586, 0.2586, 0.2586, 0.2586, 0.2586]
+0.2586
+Problème dans la représentation des bigrams!
+Calcul des poids pour les neutres:
+3703 25999 14->15.0%
+Calcul des poids pour les positifs:
+2843 25999 10->11.0%
+Calcul des poids pour les negatifs:
+1064 25999 4->5.0%
+Tolérance d'erreur trop grande pour chaque valeurs !
+Modèle à revoir poour diminuer le taux d'erreur 
+COMPRENDRE POURQUOI LE TAUX D'ERREUR NE DIMINUE PAS !
+testTraining: P:54  Neg:0 Neu:0 -> avg(PosNeg):27 
+
+Etablissement d'un second test ST pour faire  
+
+3.5 AP3.3 avec un nouveau modèle linguistique appliqué au perceptron :
+Les vecteurs de ce modéle n'ont que 36 de longueur... 
+Les erreurs ne peuvent donc pas tombées !
+pour les négatifs:
+1858 7610 24->10.0%
+pour les positifs:
+3565 7610 46->10.0%
+pour les neutres:
+3732 7610 49->10.0%
+je vais augmenté ce modèle avec pour que le nombre d'entrée soit suffisante pour être significatif!
+last word neg ou pos
+[1, 0,
+3-21 smiley
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+hashtag pos ou neg
+1, 0, 0, 0,
+unigrams pos neg
+1, 1, 1, 0,
+bigram pos neg
+1, 1, 1, 0,
+neutrlity
+2]
+[0.1676, 0.1676, 0.1676, 0.1676, 0.1676, 0.1676, 0.1676, 0.1676, 0.1676, 0.1676]
+0.1676
+
+3.6 AP3.3 +  second modèle:
+En fait cette version ma juste servie à créer
+BindingDictionnary 
+et rien d'autre! 
+
+3.7 AP3.3 + nouvelle architecture du le second modèle qui marche:
+4,5 pour cent d'erreur et une pondération par rapport au nombre d'élément de chaque valeur!
+[0.4944, 0.4944, 0.4944, 0.4944, 0.4944, 0.4944, 0.4944, 0.4944, 0.4944, 0.4944]
+0.4944
+
+3.8 AP3.7 + avec comparateur d'information:
+On remaque que dans le meilleur des cas on à presque 53% (0.5273)
+les neutres chutes de 7% par rapport à 3.3 
+pour le moment on choisie aléatoirement entre les deux valeurs proposé à voir si on ne choisira pas plus tard de ce basée sur le valeur du premier perceptron qui à un meilleur rappelle!
+[0.4996, 0.5245, 0.5087, 0.5106, 0.5081, 0.5273, 0.5102, 0.5048, 0.5156, 0.5027]
+0.51121
+
+3.9
+
+[0.5056, 0.5426, 0.503, 0.5235, 0.5147, 0.5445, 0.5279, surchauffe, du, CPU ]
+0.523114285714 (moyenne sur 7 éléments)
+
+3.10
+
+[0.5328, 0.5322, 0.5272, 0.5406, 0.5321, 0.5267, 0.546, 0.5457, 0.5292, 0.5357]
+0.53482
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+

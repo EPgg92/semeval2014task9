@@ -1,0 +1,47 @@
+0.0 rien:
+	Scores:
+	class	                  precision	              recall  fscore
+	positive 	   (339/737) 0.4600	    (339/452) 0.7500	 0.5702	
+	negative 	    (63/120) 0.5250	     (63/261) 0.2414	 0.3307	
+	neutral 	   (275/439) 0.6264	    (275/583) 0.4717	 0.5382	
+	----------------------------------------------------------------
+	average(pos and neg)                                     0.4505	
+
+0.1 Mise à niveau avec pondération tolérance d'erreur 4% :
+	Scores:
+	class	                  precision	              recall fscore
+	positive 	   (315/694) 0.4539	    (315/452) 0.6969	 0.5497	
+	negative 	   (107/241) 0.4440	    (107/261) 0.4100	 0.4263	
+	neutral 	   (225/361) 0.6233	    (225/583) 0.3859	 0.4767	
+	----------------------------------------------------------------
+	average(pos and neg)                                     0.4880	
+ 	Chronométre: 105 sec pour 1 
+0.2 0.1 + tolérance d'erreur 3% :
+
+	class	                  precision	              recall   fscore
+	positive 	   (311/703) 0.4424	    (311/452) 0.6881	 0.5385	
+	negative 	    (81/164) 0.4939	     (81/261) 0.3103	 0.3812	
+	neutral 	   (250/429) 0.5828	    (250/583) 0.4288	 0.4941	
+	----------------------------------------------------------------
+	average(pos and neg)                                    0.4599	
+	Chronométre: 379 sec
+
+0.3 0.1 + tolérance d'erreur 5%:
+	class	                  precision	              recall  fscore
+	positive 	   (328/729) 0.4499	    (328/452) 0.7257	 0.5555	
+	negative 	   (116/286) 0.4056	    (116/261) 0.4444	 0.4241	
+	neutral 	   (187/281) 0.6655	    (187/583) 0.3208	 0.4329	
+	----------------------------------------------------------------
+	average(pos and neg)                                     0.4898	
+	Chronométre: 57 sec 
+
+0.4 0.1 + tolérance d'erreur 4,5%:
+	Scores:
+	class	                  precision	              recall   fscore
+	positive 	   (327/721) 0.4535	    (327/452) 0.7235	 0.5575	
+	negative 	   (113/263) 0.4297	    (113/261) 0.4330	 0.4313	
+	neutral 	   (201/312) 0.6442	    (201/583) 0.3448	 0.4492	
+	-----------------------------------------------------------------------
+	average(pos and neg)                                     0.4944	
+	Chronométre: 50 sec
+je décide de m'arréter la dans l'ajustemet de la tolérance d'erreur car sinon je vais perdre trop recall ou de précision selon si je la monte ou la descend.

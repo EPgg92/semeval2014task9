@@ -1,0 +1,350 @@
+TASK B
+Comparing predictions test3.2.0.txt to gold standard development.gold.txt.
+File: test3.2.0.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+negative 	264
+neutral 	503
+positive 	532
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+negative 	261
+neutral 	585
+positive 	453
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      304|       53|       95
+ negative|       63|      114|       84
+  neutral|      163|       97|      323
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (304/530) 0.5736	    (304/452) 0.6726	 0.6191	
+negative 	   (114/264) 0.4318	    (114/261) 0.4368	 0.4343	
+neutral 	   (323/502) 0.6434	    (323/583) 0.5540	 0.5954	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5267	
+TASK B
+Comparing predictions test3.2.1.txt to gold standard development.gold.txt.
+File: test3.2.1.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+negative 	269
+positive 	557
+neutral 	473
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+negative 	261
+positive 	453
+neutral 	585
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      309|       51|       92
+ negative|       75|      113|       73
+  neutral|      171|      105|      307
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (309/555) 0.5568	    (309/452) 0.6836	 0.6137	
+negative 	   (113/269) 0.4201	    (113/261) 0.4330	 0.4264	
+neutral 	   (307/472) 0.6504	    (307/583) 0.5266	 0.5820	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5201	
+TASK B
+Comparing predictions test3.2.2.txt to gold standard development.gold.txt.
+File: test3.2.2.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+negative 	263
+positive 	532
+neutral 	504
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+negative 	261
+positive 	453
+neutral 	585
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      310|       48|       94
+ negative|       68|      107|       86
+  neutral|      153|      108|      322
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (310/531) 0.5838	    (310/452) 0.6858	 0.6307	
+negative 	   (107/263) 0.4068	    (107/261) 0.4100	 0.4084	
+neutral 	   (322/502) 0.6414	    (322/583) 0.5523	 0.5935	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5196	
+TASK B
+Comparing predictions test3.2.3.txt to gold standard development.gold.txt.
+File: test3.2.3.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+neutral 	497
+negative 	269
+positive 	533
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+neutral 	585
+negative 	261
+positive 	453
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      304|       53|       95
+ negative|       64|      114|       83
+  neutral|      163|      102|      318
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (304/531) 0.5725	    (304/452) 0.6726	 0.6185	
+negative 	   (114/269) 0.4238	    (114/261) 0.4368	 0.4302	
+neutral 	   (318/496) 0.6411	    (318/583) 0.5455	 0.5894	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5244	
+TASK B
+Comparing predictions test3.2.4.txt to gold standard development.gold.txt.
+File: test3.2.4.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+positive 	522
+neutral 	499
+negative 	278
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+positive 	453
+neutral 	585
+negative 	261
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      300|       61|       91
+ negative|       60|      118|       83
+  neutral|      160|       99|      324
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (300/520) 0.5769	    (300/452) 0.6637	 0.6173	
+negative 	   (118/278) 0.4245	    (118/261) 0.4521	 0.4378	
+neutral 	   (324/498) 0.6506	    (324/583) 0.5557	 0.5994	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5276	
+TASK B
+Comparing predictions test3.2.5.txt to gold standard development.gold.txt.
+File: test3.2.5.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+neutral 	522
+negative 	269
+positive 	508
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+neutral 	585
+negative 	261
+positive 	453
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      295|       56|      101
+ negative|       66|      111|       84
+  neutral|      146|      102|      335
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (295/507) 0.5819	    (295/452) 0.6527	 0.6152	
+negative 	   (111/269) 0.4126	    (111/261) 0.4253	 0.4189	
+neutral 	   (335/520) 0.6442	    (335/583) 0.5746	 0.6074	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5170	
+TASK B
+Comparing predictions test3.2.6.txt to gold standard development.gold.txt.
+File: test3.2.6.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+negative 	253
+neutral 	505
+positive 	541
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+negative 	261
+neutral 	585
+positive 	453
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      308|       49|       95
+ negative|       71|      108|       82
+  neutral|      160|       96|      327
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (308/539) 0.5714	    (308/452) 0.6814	 0.6216	
+negative 	   (108/253) 0.4269	    (108/261) 0.4138	 0.4202	
+neutral 	   (327/504) 0.6488	    (327/583) 0.5609	 0.6017	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5209	
+TASK B
+Comparing predictions test3.2.7.txt to gold standard development.gold.txt.
+File: test3.2.7.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+neutral 	501
+negative 	278
+positive 	520
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+neutral 	585
+negative 	261
+positive 	453
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      300|       54|       98
+ negative|       65|      116|       80
+  neutral|      154|      107|      322
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (300/519) 0.5780	    (300/452) 0.6637	 0.6179	
+negative 	   (116/277) 0.4188	    (116/261) 0.4444	 0.4312	
+neutral 	   (322/500) 0.6440	    (322/583) 0.5523	 0.5946	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5246	
+TASK B
+Comparing predictions test3.2.8.txt to gold standard development.gold.txt.
+File: test3.2.8.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+positive 	520
+negative 	242
+neutral 	537
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+positive 	453
+negative 	261
+neutral 	585
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      298|       49|      105
+ negative|       68|       98|       95
+  neutral|      152|       95|      336
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (298/518) 0.5753	    (298/452) 0.6593	 0.6144	
+negative 	    (98/242) 0.4050	     (98/261) 0.3755	 0.3897	
+neutral 	   (336/536) 0.6269	    (336/583) 0.5763	 0.6005	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5020	
+TASK B
+Comparing predictions test3.2.9.txt to gold standard development.gold.txt.
+File: test3.2.9.txt -- no errors found
+Prediction file: 1299 lines
+                 1296 unique
+Breakdown by class:
+neutral 	507
+positive 	538
+negative 	254
+File: development.gold.txt -- no errors found
+
+
+Gold standard: 1299 lines
+               1296 unique
+Breakdown by class:
+neutral 	585
+positive 	453
+negative 	261
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      305|       51|       96
+ negative|       69|      108|       84
+  neutral|      162|       95|      326
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	   (305/536) 0.5690	    (305/452) 0.6748	 0.6174	
+negative 	   (108/254) 0.4252	    (108/261) 0.4138	 0.4194	
+neutral 	   (326/506) 0.6443	    (326/583) 0.5592	 0.5987	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.5184	

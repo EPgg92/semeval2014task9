@@ -1,0 +1,35 @@
+TASK B
+Comparing predictions trainingtest.txt to gold standard training.txt.
+File: trainingtest.txt -- no errors found
+Prediction file: 7610 lines
+                 7580 unique
+Breakdown by class:
+positive 	2984
+neutral 	3664
+negative 	962
+File: training.txt -- no errors found
+
+
+Gold standard: 7610 lines
+               7580 unique
+Breakdown by class:
+positive 	2843
+neutral 	3703
+negative 	1064
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|     2707|       26|      100
+ negative|       80|      886|       92
+  neutral|      188|       47|     3454
+
+
+Scores:
+class	                  precision	              recall     fscore
+positive 	 (2707/2975) 0.9099	  (2707/2833) 0.9555	 0.9322	
+negative 	   (886/959) 0.9239	   (886/1058) 0.8374	 0.8785	
+neutral 	 (3454/3646) 0.9473	  (3454/3689) 0.9363	 0.9418	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.9053	

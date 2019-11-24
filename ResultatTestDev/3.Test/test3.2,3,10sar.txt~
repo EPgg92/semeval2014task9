@@ -1,0 +1,61 @@
+
+Voici le résultat pour 3.2.0:
+
+Scoring T13:
+	positive: P=62.90, R=64.53, F1=63.70
+	negative: P=40.04, R=43.12, F1=41.52
+	neutral: P=63.42, R=60.34, F1=61.84
+	OVERALL SCORE : 52.61
+
+Scoring T14:
+	positive: P=71.53, R=64.07, F1=67.59
+	negative: P=34.64, R=41.33, F1=37.69
+	neutral: P=54.11, R=59.26, F1=56.57
+	OVERALL SCORE : 52.64
+
+Scoring TS1:
+	positive: P=41.51, R=66.67, F1=51.16
+	negative: P=41.18, R=17.50, F1=24.56
+	neutral: P=43.75, R=53.85, F1=48.28
+	OVERALL SCORE : 37.86
+
+Voici le résultat pour 3.3.0:
+
+Scoring T13:
+	positive: P=61.45, R=62.50, F1=61.97
+	negative: P=35.92, R=46.05, F1=40.36
+	neutral: P=63.07, R=56.29, F1=59.49
+	OVERALL SCORE : 51.16
+
+Scoring T14:
+	positive: P=70.08, R=64.45, F1=67.15
+	negative: P=34.98, R=47.33, F1=40.23
+	neutral: P=55.36, R=56.44, F1=55.90
+	OVERALL SCORE : 53.69
+
+Scoring TS1:
+	positive: P=44.64, R=75.76, F1=56.18
+	negative: P=47.06, R=20.00, F1=28.07
+	neutral: P=53.85, R=53.85, F1=53.85
+	OVERALL SCORE : 42.12
+
+
+Voici le résultat poru 3.10sar.0:
+
+Scoring T13:
+	positive: P=61.34, R=66.72, F1=63.92
+	negative: P=36.23, R=49.89, F1=41.98
+	neutral: P=65.31, R=52.10, F1=57.96
+	OVERALL SCORE : 52.95
+
+Scoring T14:
+	positive: P=69.82, R=68.59, F1=69.20
+	negative: P=36.23, R=50.00, F1=42.02
+	neutral: P=57.25, R=52.91, F1=55.00
+	OVERALL SCORE : 55.61
+
+Scoring TS1:
+	positive: P=31.25, R=15.15, F1=20.41
+	negative: P=50.00, R=70.00, F1=58.33
+	neutral: P=50.00, R=53.85, F1=51.85
+	OVERALL SCORE : 39.37
