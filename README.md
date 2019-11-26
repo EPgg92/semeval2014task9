@@ -15,7 +15,7 @@ Personally I propose for my baseline to be bastard on a set of positive and nega
 
 ### Perceptron
 
-From the training set I implement a perceptron
+From the training set I implement a perceptron from scratch.
 
 ### Improvement: Average Perceptron & Actif learning
 
