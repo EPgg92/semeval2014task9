@@ -7,7 +7,7 @@ My first project of machine learning. My goal was to improve the results of the 
 
 The purpose of the shared task is to classify in a supervised manner a set of tweets into three classes: neutral, positive and negative.
 
-To do it I had to do at least 3 steps. Namely a baseline, implement by myself a neuron (perceptron), and finally propose improvements.
+To do it I had to do at least 3 steps: a baseline, implement by myself a neuron (perceptron), and finally propose improvements.
 
 ### Baseline
 
